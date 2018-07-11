@@ -32,7 +32,7 @@ def run():
     #hyperparameters
     init_m = 0
     init_b = 0
-    learning_rate = 0.000001
+    learning_rate = 0.0001
     n_iterations = 1000
     points = genfromtxt('data.csv', delimiter=',')
     x = []
